@@ -206,9 +206,8 @@ Do refer to 'GuideForSoloMining.txt' on how to get started.
 Configuration is based on CLI (similar to ccminer), except ".abi" files are required for new tokens (You can manually create one and copy from etherscan.com -> Contract -> Code -> Contract ABI).
 Note that there is a configuration file "_zkBitcoinMiner.conf" that saves previous CLI parameters/settings, delete it prior to changing CLI parameters.
 Sample CLI launch parameter can be found in the ".bat" file found together with this miner, please refer to it if you need help.
-You will have to supply your own BSC address (or Private key if you solo mine). It is your own responsibility to mine to the correct address/account.
+You will have to supply your own ZK Sync Era address (or Private key if you solo mine). It is your own responsibility to mine to the correct address/account.
 It is recommended to use your own web3api (e.g. Infura / Geth / Parity) if you solo mine, default value is for TESTING PURPOSE ONLY.
-There is a default of 2.0% dev fee .
 In the case if the compute load for your GPU is not >= 99%, you can adjust the intensity via (amdIntensity/cudaIntensity/intelIntensity).
 
 Please feedback your results and suggestions so that I can improve the miner. You can either add an issue in the repository, or find me in discord (untouchable2k). Thanks for trying out this miner!
